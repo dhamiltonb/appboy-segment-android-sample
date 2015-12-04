@@ -2,8 +2,7 @@
 
 buildscript {
   repositories {
-    jcenter()
-    maven { url 'https://oss.sonatype.org/content/repositories/releases/' }
+    mavenCentral()
     maven { url "http://appboy.github.io/appboy-android-sdk/sdk" }
   }
   dependencies {
@@ -16,8 +15,7 @@ buildscript {
 
 allprojects {
   repositories {
-    jcenter()
-    maven { url 'https://oss.sonatype.org/content/repositories/releases/' }
+    mavenCentral()
     maven { url "http://appboy.github.io/appboy-android-sdk/sdk" }
   }
 }
