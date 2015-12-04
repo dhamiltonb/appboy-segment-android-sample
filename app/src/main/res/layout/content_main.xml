@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/helloText"
+        android:text="Hello Appboy and Segment!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/identifyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="identify"
+        android:layout_below="@id/helloText"/>
+    <Button
+        android:id="@+id/flushButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="flush"
+        android:layout_below="@id/identifyButton"/>
+    <Button
+        android:id="@+id/trackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="track"
+        android:layout_below="@id/flushButton"/>
+</RelativeLayout>

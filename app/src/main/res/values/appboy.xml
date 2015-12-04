@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Push Notification configuration -->
+  <bool name="com_appboy_push_gcm_messaging_registration_enabled">true</bool>
+
+  <!-- This is a string because parsing it out of a resource file as a numeric value isn't properly handled by Android.
+    Also, it's not shown to the user and thus we don't require it to be translated. -->
+  <string translatable="false" name="com_appboy_push_gcm_sender_id">901477453852</string>
+</resources>
